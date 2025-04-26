@@ -11,6 +11,7 @@ This repository contains MATLAB scripts to demonstrate a basic Content-Based Ima
 ## Workflow
 **Step 1 – Train Dataset**
 - Run the training script to preprocess your image database and extract essential visual features.
+  
 **Step 2 – Main Interface**
 - Launch the main toolbox for user interaction and select your query image:
   - `Main_Toolbox()`

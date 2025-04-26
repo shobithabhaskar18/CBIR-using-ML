@@ -16,8 +16,8 @@ This repository contains MATLAB scripts to demonstrate a basic Content-Based Ima
 - Launch the main toolbox for user interaction and select your query image:
   - `Main_Toolbox()`
   - Selecting Query: Use `selectQuery()` to pick a query image.
-  - Retrieving Images: queryRetrival() computes similarity and fetches matching images.
-  - Displaying Results: databaseDisplay01() showcases retrieved images.
+  - Retrieving Images: `queryRetrival()` computes similarity and fetches matching images.
+  - Displaying Results: `databaseDisplay01()` showcases retrieved images.
 ## Requirements
 - MATLAB (preferably recent versions)
 - Image Processing Toolbox

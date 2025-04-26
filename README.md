@@ -9,33 +9,21 @@ This repository contains MATLAB scripts to demonstrate a basic Content-Based Ima
 - **queryRetrival.m** – Performs retrieval by comparing the query image features with the trained database and returns similar images.  
 - **databaseDisplay01.m** – Displays retrieved images neatly and interactively to the user.
 ## Workflow
--- Step 1 - Trained Dataset 
+**Step 1 – Train Dataset**
 - Run the training script to preprocess your image database and extract essential visual features.
--- Step 2 - Main Interface
-- Launch the main toolbox for user interaction and select your query image.
-Main_Toolbox();
-Selecting Query:
-
-Use selectQuery() to pick a query image.
-
-Retrieving Images:
-
-queryRetrival() computes similarity and fetches matching images.
-
-Displaying Results:
-
-databaseDisplay01() showcases retrieved images.
+**Step 2 – Main Interface**
+- Launch the main toolbox for user interaction and select your query image:
+  - `Main_Toolbox()`
+  - Selecting Query: Use `selectQuery()` to pick a query image.
+  - Retrieving Images: queryRetrival() computes similarity and fetches matching images.
+  - Displaying Results: databaseDisplay01() showcases retrieved images.
 ## Requirements
-MATLAB (preferably recent versions)
-
-Image Processing Toolbox
+- MATLAB (preferably recent versions)
+- Image Processing Toolbox
 ## Usage
-Clone or download this repository.
-
-Open MATLAB and set the repository folder as your working directory.
-
-Follow the workflow steps above to train, query, and retrieve images.
+- Clone or download this repository.
+- Open MATLAB and set the repository folder as your working directory.
+- Follow the workflow steps above to train, query, and retrieve images.
 ## Notes
-Ensure images in the dataset are placed in the correct directory structure before training.
-
-Customize feature extraction methods in trainDataset.m and queryRetrival.m if necessary.
+- Ensure images in the dataset are placed in the correct directory structure before training.
+- Customize feature extraction methods in trainDataset.m and queryRetrival.m if necessary.

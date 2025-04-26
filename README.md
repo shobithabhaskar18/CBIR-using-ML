@@ -9,10 +9,10 @@ This repository contains MATLAB scripts to demonstrate a basic Content-Based Ima
 - **queryRetrival.m** – Performs retrieval by comparing the query image features with the trained database and returns similar images.  
 - **databaseDisplay01.m** – Displays retrieved images neatly and interactively to the user.
 ## Workflow
-- Step 1 - Trained Dataset 
-Run the training script to preprocess your image database and extract essential visual features.
-- Step 2 - Main Interface
-Launch the main toolbox for user interaction and select your query image.
+Step 1 - Trained Dataset 
+- Run the training script to preprocess your image database and extract essential visual features.
+Step 2 - Main Interface
+- Launch the main toolbox for user interaction and select your query image.
 Main_Toolbox();
 Selecting Query:
 
